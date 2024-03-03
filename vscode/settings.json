@@ -1,0 +1,134 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "dart.flutterSdkPath": "/Users/mawinsukmongkol/flutter",
+  "editor.accessibilitySupport": "off",
+  "editor.fontFamily": "MonoLisa Nerd Font,Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": "'calt' on, 'liga' on, 'ss02' on,'SS06' on,'FRAC' on",
+  "editor.fontSize": 12,
+  "editor.fontWeight": "400",
+  "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.lineHeight": 0,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.factorypath": true,
+    "**/.project": true,
+    "**/.settings": true
+  },
+  "git.autofetch": true,
+  "git.enableCommitSigning": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": false,
+    "plaintext": true,
+    "scminput": false,
+    "yaml": true
+  },
+  "go.toolsManagement.autoUpdate": true,
+  "java.jdt.ls.java.home": "/Library/Java/JavaVirtualMachines/jdk-18.0.1.1.jdk/Contents/Home",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "jupyter.widgetScriptSources": [
+    "jsdelivr.com",
+    "unpkg.com"
+  ],
+  "notebook.output.textLineLimit": 100,
+  "npm.fetchOnlinePackageInfo": false,
+  "npm.packageManager": "pnpm",
+  "rapidapi.terminalLink.enabled": false,
+  "redhat.telemetry.enabled": true,
+  "remote.SSH.remotePlatform": {
+    "sandbox.flsru1.csb": "linux"
+  },
+  "scss.lint.unknownAtRules": "ignore",
+  "security.workspace.trust.untrustedFiles": "open",
+  "sonarlint.rules": {
+    "typescript:S1117": {
+      "level": "off"
+    }
+  },
+  "svelte.enable-ts-plugin": true,
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "tabby.api.endpoint": "http://localhost:8080",
+  "tabnine.experimentalAutoImports": true,
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "terminal.integrated.env.linux": {},
+  "terminal.integrated.env.osx": {
+    "CW_NEW_SESSION": "1",
+    "FIG_NEW_SESSION": "1"
+  },
+  "terminal.integrated.env.windows": {},
+  "terminal.integrated.fontFamily": "MonoLisa Nerd Font",
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.profiles.windows": {
+    "Command Prompt": {
+      "args": [],
+      "icon": "terminal-cmd",
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ]
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "PowerShell": {
+      "icon": "terminal-powershell",
+      "source": "PowerShell"
+    },
+    "Ubuntu (WSL)": {
+      "args": [
+        "-d",
+        "Ubuntu"
+      ],
+      "path": "C:\\Windows\\System32\\wsl.exe"
+    }
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vscode-pets.theme": "beach",
+  "workbench.colorTheme": "7lou Theme",
+  "workbench.iconTheme": "vscode-icons"
+}%

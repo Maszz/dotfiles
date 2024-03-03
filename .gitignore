@@ -1,2 +1,5 @@
 github-copilot/
 gh/
+zed/*
+!zed/keymap.json
+!zed/settings.json
