@@ -63,7 +63,8 @@ return {
             additional_args = { "--hidden" },
           })
         end,
-        desc = "Search for a string in your current working directory and get results live as you type, respects .gitignore",
+        desc =
+        "Search for a string in your current working directory and get results live as you type, respects .gitignore",
       },
       {
         "\\\\",
@@ -187,5 +188,13 @@ return {
       require("telescope").load_extension("file_browser")
     end,
   },
+  {
+    's1n7ax/nvim-window-picker',
+    name = 'window-picker',
+    event = 'VeryLazy',
+    version = '2.*',
+    config = function()
+      require 'window-picker'.setup()
+    end,
+  }
 }
-

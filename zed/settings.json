@@ -7,10 +7,10 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
-  "theme": "Catppuccin Mocha",
+  "theme": "Catppuccin Macchiato",
   "vim_mode": true,
   "ui_font_size": 15,
-  "buffer_font_size": 14,
+  "buffer_font_size": 13,
   "buffer_font_family": "MonoLisa Nerd Font",
   "buffer_font_features": {
     "calt": true,
@@ -37,7 +37,12 @@
     "shell": "system",
     "working_directory": "current_project_directory"
   },
-  "format_on_save": "on",
+  "format_on_save": {
+    "external": {
+      "command": "node_modules/.bin/prettier",
+      "arguments": ["--stdin-filepath", "{buffer_path}"]
+    }
+  },
   "formatter": "language_server",
   "languages": {
     "TypeScript": {
@@ -76,6 +81,56 @@
           "functionTypeParameters": true,
           "parameterNames": true,
           "rangeVariableTypes": true
+        }
+      }
+    }
+  },
+  "language_overrides": {
+    "TypeScript": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "node_modules/.bin/eslint_d",
+          "arguments": [
+            "--config",
+            ".eslintrc.withprettier.json",
+            "--stdin",
+            "--stdin-filename",
+            "{buffer_path}",
+            "--fix-to-stdout"
+          ]
+        }
+      }
+    },
+    "JavaScript": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "node_modules/.bin/eslint_d",
+          "arguments": [
+            "--config",
+            ".eslintrc.withprettier.json",
+            "--stdin",
+            "--stdin-filename",
+            "{buffer_path}",
+            "--fix-to-stdout"
+          ]
+        }
+      }
+    },
+    "TSX": {
+      "format_on_save": "on",
+      "formatter": {
+        "external": {
+          "command": "node_modules/.bin/eslint_d",
+          "arguments": [
+            "--config",
+            ".eslintrc.withprettier.json",
+            "--stdin",
+            "--stdin-filename",
+            "{buffer_path}",
+            "--fix-to-stdout"
+          ]
         }
       }
     }

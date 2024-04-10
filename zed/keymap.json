@@ -1,0 +1,15 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-i": "editor::Hover",
+      "cmd-shift-i": "editor::GoToDefinition"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-shift-x": "pane::CloseAllItems"
+    }
+  }
+]
