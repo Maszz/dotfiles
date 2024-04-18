@@ -3,6 +3,7 @@ return {
   lazy = true,
   name = "catppuccin",
   opts = {
+    flavour = "Frappe",
     integrations = {
       aerial = true,
       alpha = true,
@@ -37,12 +38,6 @@ return {
       treesitter = true,
       treesitter_context = true,
       which_key = true,
-    },
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
     },
   },
 }
