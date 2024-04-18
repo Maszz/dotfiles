@@ -13,6 +13,7 @@ return {
         "typescript-language-server",
         "css-lsp",
       })
+      opts.log_level = vim.log.levels.DEBUG
     end,
   },
 
