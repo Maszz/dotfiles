@@ -64,10 +64,10 @@ keymap.set("n", "<leader><Down>", "<C-w>j")
 keymap.set("n", "<leader><Up>", "<C-w>k")
 
 -- Resize window
-keymap.set("n", "<C-A-Up>", "<cmd>resize +0<cr>", { desc = "Increase Window Height" })
-keymap.set("n", "<C-A-Down>", "<cmd>resize -2<cr>", { desc = "Decrease Window Height" })
+keymap.set("n", "<C-A-Up>", "<cmd>horizontal resize +1<cr>", { desc = "Increase Window Height" })
+keymap.set("n", "<C-A-Down>", "<cmd>horizontal resize -1<cr>", { desc = "Decrease Window Height" })
 keymap.set("n", "<C-A-Left>", "<cmd>vertical resize -1<cr>", { desc = "Decrease Window Width" })
-keymap.set("n", "<C-A-Right>", "<cmd>vertical resize +2<cr>", { desc = "Increase Window Width" })
+keymap.set("n", "<C-A-Right>", "<cmd>vertical resize +1<cr>", { desc = "Increase Window Width" })
 -- Diagnostics
 keymap.set("n", "<C-j>", function()
   vim.diagnostic.goto_next()
